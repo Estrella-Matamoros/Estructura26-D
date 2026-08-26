@@ -1,1 +1,8 @@
-jgfykrdkrdrsd5etjkdsrsjsr
+ Public class Prueba {
+
+public class void main (String [] args)
+{
+System.out Print ("Hola mundo ");
+
+}
+}
