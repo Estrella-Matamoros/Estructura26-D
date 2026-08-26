@@ -2,7 +2,7 @@
 
 public class void main (String [] args)
 {
-System.out Print ("Hola mundo ");
+System.out Print ("Hola word ");
 
 }
 }
