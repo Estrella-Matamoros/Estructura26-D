@@ -28,7 +28,7 @@ namespace practica1._0
 
             Console.ReadLine();
             }
-        static estudiante capturarEstudiante()
+        static  estudiantes capturarEstudiante()
         {
             //aqui piden el nombre y la carrera 
             string nombre, carrera;
@@ -45,7 +45,7 @@ namespace practica1._0
 
 
             //creamos un objeto de tipo estudiante 
-            estudiante estudiante_nuevo = new estudiante(nombre, carrera, num_materias);
+            estudiantes estudiante_nuevo = new estudiantes(nombre, carrera, num_materias);
             int calificacion = 0;
             for (int i = 0; i < num_materias;  i ++)
             {

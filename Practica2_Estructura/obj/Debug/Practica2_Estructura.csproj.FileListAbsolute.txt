@@ -1,0 +1,7 @@
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\bin\Debug\Practica2_Estructura.exe.config
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\bin\Debug\Practica2_Estructura.exe
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\bin\Debug\Practica2_Estructura.pdb
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\obj\Debug\Practica2_Estructura.csproj.AssemblyReference.cache
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\obj\Debug\Practica2_Estructura.csproj.CoreCompileInputs.cache
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\obj\Debug\Practica2_Estructura.exe
+C:\Users\matam\Downloads\Escritorio\Estructura26-D\Practica2_Estructura\obj\Debug\Practica2_Estructura.pdb
