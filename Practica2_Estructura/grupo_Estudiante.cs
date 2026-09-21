@@ -36,7 +36,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    suma += estudiante.Promedio();
+                    suma += estudiante.getPromedio();
                 }
 
                 return suma / Estudiantes.Length;
@@ -49,7 +49,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    if (estudiante.Promedio() >= 70)
+                    if (estudiante.getPromedio() >= 70)
                     {
                         regulares.Add(estudiante);
                     }
@@ -65,7 +65,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    if (estudiante.Promedio() < 70)
+                    if (estudiante.getPromedio() < 70)
                     {
                         irregulares.Add(estudiante);
                     }
