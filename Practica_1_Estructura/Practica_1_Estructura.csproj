@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94E162A8-D0F2-44BC-98F1-4A2CF9094B3A}</ProjectGuid>
+    <ProjectGuid>{0DE307E3-EC2D-4673-9CF7-D3F63BA66088}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practica2_Estructura</RootNamespace>
-    <AssemblyName>Practica2_Estructura</AssemblyName>
+    <RootNamespace>Practica_1_Estructura</RootNamespace>
+    <AssemblyName>Practica_1_Estructura</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="estudiantes.cs" />
-    <Compile Include="grupo_Estudiante.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
