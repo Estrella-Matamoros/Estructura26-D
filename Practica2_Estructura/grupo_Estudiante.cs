@@ -9,7 +9,8 @@ namespace Practica2_Estructura
 {
     internal class Grupo_Estudiante
     {
-        public class grupo_Estudiante
+        //Cierre de Pràctica 4
+        public class grupo_estudiante
         {
             // Atributos
             public string NombreGrupo { get; set; }
@@ -17,7 +18,7 @@ namespace Practica2_Estructura
             public Estudiante[] Estudiantes { get; set; }
 
             // Constructor
-            public grupo_Estudiante(string nombreGrupo, string claveGrupo, Estudiante[] estudiantes)
+            public grupo_estudiante(string nombreGrupo, string claveGrupo, Estudiante[] estudiantes)
             {
                 NombreGrupo = nombreGrupo;
                 ClaveGrupo = claveGrupo;
@@ -36,7 +37,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    suma += estudiante.getPromedio();
+                    suma += estudiante.Promedio();
                 }
 
                 return suma / Estudiantes.Length;
@@ -49,7 +50,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    if (estudiante.getPromedio() >= 70)
+                    if (estudiante.Promedio() >= 70)
                     {
                         regulares.Add(estudiante);
                     }
@@ -65,7 +66,7 @@ namespace Practica2_Estructura
 
                 foreach (Estudiante estudiante in Estudiantes)
                 {
-                    if (estudiante.getPromedio() < 70)
+                    if (estudiante.Promedio() < 70)
                     {
                         irregulares.Add(estudiante);
                     }
@@ -76,3 +77,5 @@ namespace Practica2_Estructura
         }
     }
 }
+
+
