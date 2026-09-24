@@ -7,7 +7,7 @@ using static Practica2_Estructura.estudiantes;
 
 namespace Practica2_Estructura
 {
-    internal class grupo_Estudiante
+    internal class Grupo_Estudiante
     {
         //Cierre de Pràctica 4
         public class grupo_estudiante
